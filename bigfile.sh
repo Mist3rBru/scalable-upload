@@ -1,0 +1,1 @@
+node -e "process.stdout.write(crypto.randomBytes(1e8*6))" > big.file

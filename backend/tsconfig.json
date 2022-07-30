@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "ES2017",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+  }
+}
