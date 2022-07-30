@@ -10,7 +10,6 @@ export function Dropzone (props: DropzoneProps) {
   const [text, setText] = useState('')
 
   const dropzone = useDropzone({
-    maxFiles: 1,
     onDropAccepted: file => props.onDrop(file)
   })
 
