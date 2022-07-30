@@ -48,10 +48,10 @@ export default function App () {
     <div className="min-h-screen w-screen py-16 flex items-center justify-center bg-gradient-to-bl from-[#09090a] to-[#121214] text-[#f0f0f0]">
       <form
         onSubmit={handleSubmit}
-        className="relative w-11/12 max-w-sm m-auto bg-[#202025] p-4 rounded border-purple-500 border"
+        className="relative w-11/12 max-w-md m-auto bg-[#202025] p-4 rounded border-purple-500 border"
       >
         <Dropzone onDrop={setFiles} />
-        <ul className="flex flex-col gap-3 my-4">
+        <ul className="flex flex-col gap-3 my-4 max-h-80 overflow-y-auto">
           {files.map((file, index) => (
             <FilePreview
               key={index}
