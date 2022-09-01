@@ -1,2 +1,5 @@
-node_modules
 big.file
+yarn.lock
+package-lock.json
+
+node_modules/
